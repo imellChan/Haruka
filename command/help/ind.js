@@ -11,15 +11,15 @@ exports.noregis = (pushname) =>{
 	return` 🙅‍♀️ Halo ${pushname} lu belum daftar. Ketik .daftar dulu`
 	}
 exports.regis = () =>{
-	return` Lu udah daftar 😒`
+	return` Lu udah daftar `
 	}
 exports.daftar = (sender, pushname, time, serialUser, totalUser) =>{
 	return` *PENDAFTARAN BERHASIL*
 
-• Nama : ${pushname}
-• Nomor : ${sender.split("@")[0]}
-• Waktu : ${time}
-• Serial : ${serialUser}
+👥 Nama : ${pushname}
+📞 Nomor : ${sender.split("@")[0]}
+⏰ Waktu : ${time}
+💷 Serial : ${serialUser}
 
 Thanks yak udah daftar, sekarang ketik .menu untuk melihat 
 fitur bot.
@@ -53,12 +53,12 @@ exports.welcome = () =>{
 ⌯ָ   ֙Umur :
 ⌯ָ   ֙Kelamin :
 ⌯ָ   ֙Askot :
-╰─ ᝬ _Patuhi Rules Group Ya_  >_<`
+╰─ ᝬ _Patuhi Rules Group Yoo_`
       }
 exports.leave = () =>{
 	return`
 │
-╰─ ᝬ _Balik Lagi Wajib Donasi Ya_ >_<`
+╰─ ᝬ _Balik Lagi Wajib Donasi Ya_`
 }
 exports.menu = (prefix, salam, pushname) =>{
 	return`Hi ${pushname}, selamat ${salam}
@@ -68,7 +68,7 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • ${prefix}help
 │ • ${prefix}haruka
 │
-├ *Download*
+╭─⬣ *Download*
 │ • ${prefix}play [query]
 │ • ${prefix}song [judul lagu]
 │ • ${prefix}pinterest [query]
@@ -85,8 +85,8 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • ${prefix}nhentai [code]
 │ • ${prefix}nhentaipdf [code]
 │ • ${prefix}nhentaisearch [query]
-│
-├ *Convert*
+╰─⬣
+╭─⬣ *Convert*
 │ • ${prefix}stiker [video/image]
 │ • ${prefix}semoji 😎
 │ • ${prefix}smeme [text]
@@ -98,22 +98,22 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • ${prefix}slow [video/vn]
 │ • ${prefix}bass [video/vn]
 │ • ${prefix}nightcore [video/vn]
-│
-├ *Education*
+╰─⬣
+╭─⬣ *Education*
 │ • ${prefix}nuliskiri [text]
 │ • ${prefix}nuliskanan [text]
 │ • ${prefix}foliokiri [text]
 │ • ${prefix}foliokanan [text]
-│
-├ *Islamic*
+╰─⬣
+╭─⬣ *Islamic*
 │ • ${prefix}listsurah
 │ • ${prefix}alquran
 │ • ${prefix}asmaulhusna
 │ • ${prefix}kisahnabi
 │ • ${prefix}alquranaudio
 │ • ${prefix}jadwalsholat
-│
-├ *For wibu*
+╰─⬣
+╭─⬣ *For wibu*
 │ • ${prefix}nami 
 │ • ${prefix}copper 
 │ • ${prefix}naruto  
@@ -138,8 +138,8 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • ${prefix}tanjirou 
 │ • ${prefix}nezuko 
 │ • ${prefix}senku
-│
-├ *Maker Ephoto360*
+╰─⬣
+╭─⬣ *Maker Ephoto360*
 │ • ${prefix}wetglass
 │ • ${prefix}multicolor3d
 │ • ${prefix}watercolor
@@ -170,8 +170,8 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • ${prefix}goldplaybutton
 │ • ${prefix}silverplaybutton
 │ • ${prefix}freefire
-│
-├ *Maker TextPro*
+╰─⬣
+╭─⬣ *Maker TextPro*
 │ • ${prefix}blackpink
 │ • ${prefix}neon
 │ • ${prefix}greenneon
@@ -204,11 +204,11 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • ${prefix}summersand
 │ • ${prefix}horrorblood
 │ • ${prefix}thunder
-│
-├ *Game*
+╰─⬣
+╭─⬣ *Game*
 │ • ${prefix}tebakgambar 
-│
-├ *Anime search*
+╰─⬣
+╭─⬣ *Anime search*
 │ • ${prefix}character [anime]
 │ • ${prefix}anime [query]
 │ • ${prefix}manga [query]
@@ -216,8 +216,8 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • ${prefix}kusonimesearch [query]
 │ • ${prefix}otakudesu [query]
 │ • ${prefix}otakudesusearch [query] 
-│
-├ *Random text*
+╰─⬣
+╭─⬣ *Random text*
 │ • ${prefix}pantun 
 │ • ${prefix}puisi 
 │ • ${prefix}bucinquote 
@@ -242,12 +242,12 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • ${prefix}animequote
 │ • ${prefix}animequote2
 │ • ${prefix}trumpthink
-│
-├ *Info*
+╰─⬣
+╭─⬣ *Info*
 │ • ${prefix}owner
 │ • ${prefix}daftar
-│
-├ *Owner*
+╰─⬣
+╭─⬣ *Owner*
 │ • ${prefix}broadcast [text]
 │ • ${prefix}leave
 │ • ${prefix}antidelete [on/off]
@@ -255,8 +255,8 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • >
 │ • $
 │ •  => 
-│
-├ *Group*
+╰─⬣
+╭─⬣ *Group*
 │ • ${prefix}sider [reply pesan bot]
 │ • ${prefix}listonline
 │ • ${prefix}delete [reply pesan bot]
