@@ -1,6 +1,6 @@
 exports.limitcount = (prem, limitCounts) => {
 	return`
-*「 LIMIT COUNT 」*
+*「 LIMIT 」*
 Sisa limit : ${prem ? '1000' : `${limitCounts}`}
 `
 }
@@ -67,7 +67,7 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • ${prefix}menu
 │ • ${prefix}help
 │ • ${prefix}haruka
-│
+╰─⬣
 ╭─⬣ *Download*
 │ • ${prefix}play [query]
 │ • ${prefix}song [judul lagu]
